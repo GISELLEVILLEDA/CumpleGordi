@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Cumpleaños, Mejor Amiga!</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        
+        :root {
+            --rosa-muy-suave: #fff0f5; 
+            --rosa-pastel: #ffc0cb;    
+            --rosa-fuerte: #ffb6c1;    
+            --texto-oscuro: #5d4037;  
+            --blanco: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--rosa-muy-suave);
+            color: var(--texto-oscuro);
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        header {
+            background-color: var(--blanco);
+            padding: 60px 20px;
+            border-bottom: 5px solid var(--rosa-pastel);
+        }
+
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 4.5rem;
+            color: var(--rosa-fuerte);
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .subtitulo {
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: #888;
+        }
+
+        .seccion-carta {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 40px;
+            background-color: var(--blanco);
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(255, 182, 193, 0.2); 
+            position: relative;
+        }
+
+        .seccion-carta::before, .seccion-carta::after {
+            content: '💖';
+            position: absolute;
+            font-size: 2rem;
+            opacity: 0.5;
+        }
+        .seccion-carta::before { top: 10px; left: 10px; }
+        .seccion-carta::after { bottom: 10px; right: 10px; }
+
+        h2 {
+            font-family: 'Dancing Script', cursive;
+            color: var(--rosa-fuerte);
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .seccion-carta p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .seccion-galeria {
+            padding: 50px 20px;
+            background-color: var(--rosa-pastel);
+            color: var(--blanco);
+        }
+
+        .seccion-galeria h2 {
+            color: var(--blanco);
+            margin-bottom: 40px;
+        }
+
+        .contenedor-fotos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .item-foto {
+            background-color: var(--blanco);
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease-in-out;
+            border: 2px solid var(--blanco);
+        }
+
+        .item-foto:hover {
+            transform: translateY(-10px) rotate(2deg); 
+            border-color: var(--rosa-muy-suave);
+        }
+
+        .item-foto img {
+            width: 100%;
+            height: 250px; 
+            object-fit: cover; 
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .item-foto p {
+            color: var(--texto-oscuro);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        footer {
+            padding: 30px;
+            background-color: var(--blanco);
+            color: #aaa;
+            font-size: 0.8rem;
+            margin-top: auto;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 3rem; }
+            .seccion-carta { padding: 20px; margin: 20px; }
+            .item-foto img { height: 200px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>¡Happy Birthday Gorda!</h1>
+        <p class="subtitulo">Para la mejor amiga, mamá y mujer del mundo entero</p>
+    </header>
+
+    <section class="seccion-carta">
+        <h2>Querida Moni:</h2>
+        <p>A veces me cuesta encontrar las palabras correctas para todo lo que significás para mí, pero hoy quiero intentarlo.</p>
+        <p>Desde que nos conocimos en el colegio, en segundo año de bachillerato, lo nuestro simplemente fluyó. Sin esfuerzo, sin forzarlo, como si la vida ya supiera que nos necesitábamos. Nos volvimos uña y mugre, compartiendo risas, secretos y momentos que hasta hoy viven en mi corazón.</p>
+        <p>Luego vino una etapa difícil… yo estaba en una relación que me apagaba, y vos intentaste salvarme de todo eso. Sé que lo hiciste desde el amor más puro, en ese momento no super verlo ni tomar las mejores decisiones. Me perdí un poco de mí misma y eso también nos terminó alejando. Nos dejamos de hablar, y pasaron casi tres años en silencio… tres años que dolieron más de lo que alguna vez te dije.</p>
+        <p>La vida, con sus formas tan extrañas, hizo que viviéramos cosas muy fuertes al mismo tiempo. Sin saberlo, ambas quedamos embarazadas. Yo perdí al mío… y vos tuviste a Anto. Y aunque sé perfectamente que no es mi hija, en mi corazón hay un pedacito que ama a Anto con todo lo que no pude darle al mío. Es un amor real, profundo, y lleno de ternura.</p>
+        <p>Cuando Anto llegó, también llegó el valor que necesitaba para volver a vos. Y vos… decidiste abrirme la puerta otra vez. No fue fácil, lo sé. Costó, pero aquí estamos, reconstruyendo, sanando, y siendo, de alguna forma, un poquito de lo que fuimos… pero también algo nuevo, más fuerte, más consciente, más real.</p>
+        <p>Gracias por darme la oportunidad de crear nuevos recuerdos a tu lado. Gracias por permitirme volver a quererte de cerca. Gracias por regalarme el título de “tía de Anto”, que nunca imaginé que sería mi favorito en la vida.</p>
+        <p>Las amo. La amo a ella por esa luz que trae, y te amo a vos por ser quien sos: una mujer resiliente, berraca, guerrera, inteligente, preciosa. Te admiro más de lo que a veces digo, por todo lo que has superado, por la madre que sos, por la persona que elegís ser cada día.</p>
+        <p>Soy feliz de estar en tu vida otra vez. Y más feliz aún de que me permitás quedarme.</p>
+        <p>Feliz cumpleaños, Gorda. Hoy celebro tu vida, pero también celebro el privilegio de poder caminar a tu lado otra vez. Que la vida te devuelva en amor todo lo que das, porque merecés eso y mucho más. ¡Te mereces el mundo! ❤️</p>
+        <p>Con todo mi amor,
+        Gi</p>
+    </section>
+
+    <section class="seccion-galeria">
+        <h2>Nuestros Momentos </h2>
+        
+        <div class="contenedor-fotos">
+            <div class="item-foto">
+                <img src="foto1.jpeg" alt="Recuerdo especial 1">
+                <p>¡El mejor viaje de todos!</p>
+            </div>
+
+            <div class="item-foto">
+                <img src="foto2.jpeg" alt="Recuerdo especial 2">
+                <p>My partner in crime</p>
+            </div>
+
+            <div class="item-foto">
+                <img src="foto3.jpeg" alt="Recuerdo especial 3">
+                <p>You're the best mom</p>
+            </div>
+
+            <div class="item-foto">
+                <img src="foto4.jpeg" alt="Recuerdo especial 4">
+                <p>Logros juntas</p>
+            </div>
+
+             <div class="item-foto">
+                <img src="foto5.jpeg" alt="Recuerdo especial 5">
+                <p>Since 2017</p>
+            </div>
+
+             <div class="item-foto">
+                <img src="foto6.jpeg" alt="Recuerdo especial 6">
+                <p>Siempre juntas</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Hecho con todo el cariño del mundo, feli cumple 🌸</p>
+    </footer>
+</body>
+</html>
